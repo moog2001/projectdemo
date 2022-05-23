@@ -109,7 +109,7 @@ public class HelloApplication extends Application {
 
         Label lblText = new Label();
         lblText.textProperty().bind(task.messageProperty());
-        lblText.setPrefWidth(100);
+        lblText.setPrefWidth(150);
 
         HBox root = new HBox();
         root.getChildren().add(progressBar);
